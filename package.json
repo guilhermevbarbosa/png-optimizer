@@ -2,12 +2,13 @@
 	"name": "png-otimizer",
 	"version": "1.0.0",
 	"description": "Script para compressão de PNG",
-	"main": "png-otimizer.js",
+	"main": "png-optimizer.js",
 	"scripts": {
-		"start": "node png-otimizer.js",
-		"otimizar": "node png-otimizer.js",
+		"start": "node png-optimizer.js",
+		"otimizar": "node png-optimizer.js",
 		"renomear": "node renamer.js",
-		"png-complete": "npm run otimizar && npm run renomear",
+		"webp": "node optimize-png-to-webp.js",
+		"complete": "npm run otimizar && npm run renomear && npm run webp",
 		"setup": "npm install"
 	},
 	"keywords": [
