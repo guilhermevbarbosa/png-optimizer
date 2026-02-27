@@ -1,0 +1,25 @@
+{
+	"name": "png-otimizer",
+	"version": "1.0.0",
+	"description": "Script para compressão de PNG",
+	"main": "png-otimizer.js",
+	"scripts": {
+		"start": "node png-otimizer.js",
+		"otimizar": "node png-otimizer.js",
+		"setup": "npm install"
+	},
+	"keywords": [
+		"png",
+		"optimization",
+		"sharp",
+		"compress"
+	],
+	"author": "Guilherme Vinicius Barbosa",
+	"license": "ISC",
+	"dependencies": {
+		"sharp": "^0.34.5"
+	},
+	"bin": {
+		"otimizar-png": "./png-otimizer.js"
+	}
+}
