@@ -6,6 +6,8 @@
 	"scripts": {
 		"start": "node png-otimizer.js",
 		"otimizar": "node png-otimizer.js",
+		"renomear": "node renamer.js",
+		"png-complete": "npm run otimizar && npm run renomear",
 		"setup": "npm install"
 	},
 	"keywords": [
